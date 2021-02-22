@@ -14,8 +14,9 @@ function App() {
     <div className="app">
       <Router>
         <Switch>
-          
-          <Route path='/search'>
+
+          <Route path='/search/:searchTerm'>
+            <Header />
             <h1>Search Page</h1>
           </Route>
 
@@ -29,8 +30,6 @@ function App() {
 
         </Switch>
       </Router>
-
-      
 
     </div>
   );
