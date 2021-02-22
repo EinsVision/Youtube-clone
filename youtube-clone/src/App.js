@@ -1,41 +1,16 @@
 import './App.css';
 import Header from './Header';
+import RecommendedVideos from './RecommendedVideos';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
     <div className="app">
-
       <Header />
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      <h1>Test</h1>
-      
-      {/* Sidebar */}
-      {/* RecommendedVideo */}
+      <div className='app__page'>
+        <Sidebar />
+        <RecommendedVideos />
+      </div>
     </div>
   );
 }
