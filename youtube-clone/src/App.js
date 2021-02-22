@@ -4,9 +4,36 @@ import Header from './Header';
 function App() {
   return (
     <div className="app">
-      <h2>Youtube clone🎈✨🚀⭐</h2>
 
       <Header />
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      <h1>Test</h1>
+      
       {/* Sidebar */}
       {/* RecommendedVideo */}
     </div>
