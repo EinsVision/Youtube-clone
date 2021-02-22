@@ -5,23 +5,25 @@ import Sidebar from './Sidebar';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
+import SearchPage from './SearchPage';
 
 function App() {
   return (
     <div className="app">
       <Router>
+        <Header />
         <Switch>
 
           <Route path='/search/:searchTerm'>
-            <Header />
-            <h1>Search Page</h1>
+            <div className='app__page'>
+              <Sidebar />
+              <SearchPage />
+            </div>
           </Route>
 
           <Route path='/'>
-            <Header />
             <div className='app__page'>
               <Sidebar />
               <RecommendedVideos />
