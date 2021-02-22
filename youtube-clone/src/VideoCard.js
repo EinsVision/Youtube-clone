@@ -7,7 +7,7 @@ function VideoCard({image, title, channel, views, timestamp, channelImage}) {
     <div className='videoCard'>
       <img src={image} alt='' />
       <div className='videoCard__info'>
-        <Avatar className='videoCard__avatar' alt={channel} src={channel}/>
+        <Avatar className='videoCard__avatar' alt={channel} src={channelImage}/>
         <div className='video__text'>
           <h4>{title}</h4>
           <p>{channel}</p>
@@ -21,3 +21,4 @@ function VideoCard({image, title, channel, views, timestamp, channelImage}) {
 }
 
 export default VideoCard
+// 2:01:00
