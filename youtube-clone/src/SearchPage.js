@@ -24,7 +24,70 @@ function SearchPage() {
 
       <hr />
 
-      <VideoRow />
+      <VideoRow 
+        views='1.4M'
+        subs='649K'
+        description='Do you want to be a software programmer?'
+        timestamp='1 hour ago'
+        channel = 'Hodny coding'
+        title='Let us build a Youtube clone coding #1'
+        image='https://i.morioh.com/200818/1359fe2d.webp'
+      />
+
+      <VideoRow 
+        views='1.4M'
+        subs='649K'
+        description='Do you want to be a software programmer?'
+        timestamp='1 hour ago'
+        channel = 'Hodny coding'
+        title='Let us build a Youtube clone coding #2'
+        image='https://i.morioh.com/200818/1359fe2d.webp'
+      />
+      <VideoRow 
+        views='1.4M'
+        subs='649K'
+        description='Do you want to be a software programmer?'
+        timestamp='1 hour ago'
+        channel = 'Hodny coding'
+        title='Let us build a Youtube clone coding #3'
+        image='https://i.morioh.com/200818/1359fe2d.webp'
+      />
+      <VideoRow 
+        views='1.4M'
+        subs='649K'
+        description='Do you want to be a software programmer?'
+        timestamp='1 hour ago'
+        channel = 'Hodny coding'
+        title='Let us build a Youtube clone coding #4'
+        image='https://i.morioh.com/200818/1359fe2d.webp'
+      />
+      <VideoRow 
+        views='1.4M'
+        subs='649K'
+        description='Do you want to be a software programmer?'
+        timestamp='1 hour ago'
+        channel = 'Hodny coding'
+        title='Let us build a Youtube clone coding #5'
+        image='https://i.morioh.com/200818/1359fe2d.webp'
+      />
+      <VideoRow 
+        views='1.4M'
+        subs='649K'
+        description='Do you want to be a software programmer?'
+        timestamp='1 hour ago'
+        channel = 'Hodny coding'
+        title='Let us build a Youtube clone coding #6'
+        image='https://i.morioh.com/200818/1359fe2d.webp'
+      />
+      <VideoRow 
+        views='1.4M'
+        subs='649K'
+        description='Do you want to be a software programmer?'
+        timestamp='1 hour ago'
+        channel = 'Hodny coding'
+        title='Let us build a Youtube clone coding #7'
+        image='https://i.morioh.com/200818/1359fe2d.webp'
+      />
     </div>
   )
 }
